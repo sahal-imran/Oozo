@@ -2,15 +2,108 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: "Thertole";
+  src: url("../fonts/Thertole.otf") format("opentype");
 }
-
+@font-face {
+  font-family: "ThertoleRegular";
+  src: url("../fonts/ThertoleRegular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "ThertoleRegularWoff";
+  src: url("../fonts/ThertoleRegular.woff") format("opentype");
+}
+@font-face {
+  font-family: "AbyssinicaSIL-R";
+  src: url("../fonts/AbyssinicaSIL-R.ttf") format("opentype");
+}
 * {
   box-sizing: border-box;
 }
+.navLink {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 29px;
+  margin-right: 18px;
+  text-transform: uppercase;
+  font-family: "ThertoleRegular";
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.navLink:hover {
+  color: #bdd66f;
+}
+.active{
+  color: #bdd66f;
+}
+.navLink1 {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 24px;
+  font-style: normal;
+  margin-bottom: 20px;
+  border-bottom: 1px solid white;
+  text-transform: uppercase;
+  font-family: "ThertoleRegular";
+  width: 100%;
+  padding: 8px 0px 4px 18px;
+}
+.drawer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#oozo {
+  background-image: url("../public/assets/oozo-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+#Footer {
+  background-image: url("../public/assets/footer-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.centeredBtn {
+  position: absolute;
+  top: 38%;
+  left: 48%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.qusetionMark{
+  position: absolute;
+  top: 15%;
+  right: -15%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.hello{
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+/* ::-webkit-scrollbar {
+  display: none;
+} */
